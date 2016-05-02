@@ -20,7 +20,7 @@ namespace PhoneApp1.Views
 
         private void backButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Views/ExpenditureAdd.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/Views/Expenditure.xaml", UriKind.Relative));
         }
 
         private void submitButton_Click(object sender, RoutedEventArgs e)
@@ -43,11 +43,10 @@ namespace PhoneApp1.Views
                     exp.CreatedBy = GlobalClass.whoIsLoggedIn;
                     context.Expenditures.InsertOnSubmit(exp);
                     context.SubmitChanges();
-
-                    MessageBox.Show("Expenditure added");
-                    NavigationService.Navigate(new Uri("/Views/ExpenditureAdd.xaml", UriKind.Relative));
-
                 }
+
+                MessageBox.Show("Expenditure added");
+                NavigationService.Navigate(new Uri("/Views/Expenditure.xaml", UriKind.Relative));
             }
 
         }

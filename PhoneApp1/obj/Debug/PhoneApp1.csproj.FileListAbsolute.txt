@@ -23,3 +23,4 @@ C:\Users\Jim\documents\visual studio 2015\Projects\PhoneApp1\PhoneApp1\obj\Debug
 C:\Users\Jim\documents\visual studio 2015\Projects\PhoneApp1\PhoneApp1\obj\Debug\Views\Expenditure.g.cs
 C:\Users\Jim\documents\visual studio 2015\Projects\PhoneApp1\PhoneApp1\obj\Debug\Views\Income.g.cs
 C:\Users\Jim\documents\visual studio 2015\Projects\PhoneApp1\PhoneApp1\obj\Debug\Views\ExpenditureAdd.g.cs
+C:\Users\Jim\documents\visual studio 2015\Projects\PhoneApp1\PhoneApp1\obj\Debug\Views\ExpenditureDelete.g.cs

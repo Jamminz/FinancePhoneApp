@@ -29,8 +29,9 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Grid>
-                <Button x:Name="Income" Content="Income" HorizontalAlignment="Left" Margin="21,91,0,0" VerticalAlignment="Top" Width="199" Click="Income_Click"/>
-                <Button x:Name="Expenditure" Content="Expendeniture" HorizontalAlignment="Left" Margin="220,91,0,0" VerticalAlignment="Top" Click="Expenditure_Click"/>
+                <Button x:Name="Income" Content="Income" HorizontalAlignment="Left" Margin="20,481,0,0" VerticalAlignment="Top" Width="199" Click="Income_Click"/>
+                <Button x:Name="Expenditure" Content="Expendeniture" HorizontalAlignment="Left" Margin="235,481,0,0" VerticalAlignment="Top" Click="Expenditure_Click"/>
+                <TextBlock x:Name="overviewTextBlock" HorizontalAlignment="Left" Margin="20,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="385" Width="414"/>
             </Grid>
             <TextBlock x:Name="uNameBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="{Binding}" VerticalAlignment="Top" Width="214"/>
         </Grid>

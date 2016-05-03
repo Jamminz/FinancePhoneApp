@@ -1,5 +1,5 @@
 ﻿<phone:PhoneApplicationPage
-    x:Class="PhoneApp1.Views.ExpenditureDelete"
+    x:Class="PhoneApp1.Views.IncomeAdd"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
@@ -23,15 +23,18 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="Nexco Finance" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="Delete Expenditure" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="55"/>
+            <TextBlock Text="Add Income" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <Button x:Name="deleteButton" Content="Delete" HorizontalAlignment="Left" Margin="89,509,0,0" VerticalAlignment="Top" Click="button_Click"/>
-            <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" Margin="244,509,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.144,-0.115" Width="117" Click="backButton_Click"/>
-            <TextBlock x:Name="IdTextBlock" HorizontalAlignment="Left" Margin="167,187,0,0" TextWrapping="Wrap" Text="Expenditure ID" VerticalAlignment="Top"/>
-            <TextBox x:Name="IdTextBox" HorizontalAlignment="Left" Height="72" Margin="0,219,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="456"/>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="186,93,0,0" TextWrapping="Wrap" Text="Amount" VerticalAlignment="Top"/>
+            <TextBox x:Name="amountTextBox" HorizontalAlignment="Left" Height="72" Margin="0,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="456"/>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="171,212,0,0" TextWrapping="Wrap" Text="Description" VerticalAlignment="Top"/>
+            <TextBox x:Name="descriptionTextBox" HorizontalAlignment="Left" Height="72" Margin="0,244,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="456"/>
+            <Button x:Name="addButton" Content="Submit" HorizontalAlignment="Left" Margin="76,472,0,0" VerticalAlignment="Top" Width="126" Click="addButton_Click"/>
+            <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" Margin="224,472,0,0" VerticalAlignment="Top" Click="backButton_Click" Width="126"/>
+
         </Grid>
     </Grid>
 

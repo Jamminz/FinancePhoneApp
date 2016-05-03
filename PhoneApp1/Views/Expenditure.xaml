@@ -28,10 +28,11 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <Button x:Name="button" Content="Add" HorizontalAlignment="Left" Margin="22,516,0,0" VerticalAlignment="Top" Click="button_Click"/>
-            <Button x:Name="button1" Content="Delete" HorizontalAlignment="Left" Margin="138,516,0,0" VerticalAlignment="Top" Click="button1_Click"/>
-            <Button x:Name="button2" Content="Dashboard" HorizontalAlignment="Left" Margin="279,516,0,0" VerticalAlignment="Top" Width="167" Click="button2_Click"/>
-            <TextBlock x:Name="overviewTextBlock" HorizontalAlignment="Left" Margin="22,10,0,0" TextWrapping="Wrap" Text="{Binding}" VerticalAlignment="Top" Height="501" Width="414"/>
+            <Button x:Name="button" Content="Add" HorizontalAlignment="Left" Margin="64,459,0,0" VerticalAlignment="Top" Click="button_Click" Width="167"/>
+            <Button x:Name="button1" Content="Delete" HorizontalAlignment="Left" Margin="231,459,0,0" VerticalAlignment="Top" Click="button1_Click" Width="167"/>
+            <Button x:Name="button2" Content="Dashboard" HorizontalAlignment="Left" Margin="231,525,0,0" VerticalAlignment="Top" Width="167" Click="button2_Click"/>
+            <TextBlock x:Name="overviewTextBlock" HorizontalAlignment="Left" Margin="22,10,0,0" TextWrapping="Wrap" Text="{Binding}" VerticalAlignment="Top" Height="449" Width="414" FontSize="15"/>
+            <Button x:Name="button3" Content="Edit" HorizontalAlignment="Left" Margin="64,525,0,0" VerticalAlignment="Top" Width="167" Click="button3_Click"/>
 
         </Grid>
     </Grid>

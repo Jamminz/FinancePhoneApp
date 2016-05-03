@@ -47,14 +47,14 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="163,164,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="142" TextAlignment="Center"/>
-            <Button x:Name="button1" Content="Sign In" HorizontalAlignment="Left" Margin="163,323,0,0" VerticalAlignment="Top" Width="142" Click="button1_Click"/>
-            <Button x:Name="button5" Content="Register" HorizontalAlignment="Left" Margin="163,425,0,0" VerticalAlignment="Top" Width="142" Click="button5_Click"/>
-            <TextBox x:Name="userField" HorizontalAlignment="Left" Height="72" Margin="0,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456" TextAlignment="Center"/>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="157,176,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="142" TextAlignment="Center"/>
+            <Button x:Name="button1" Content="Sign In" HorizontalAlignment="Left" Margin="79,425,0,0" VerticalAlignment="Top" Width="142" Click="button1_Click"/>
+            <Button x:Name="button5" Content="Register" HorizontalAlignment="Left" Margin="226,425,0,0" VerticalAlignment="Top" Width="142" Click="button5_Click"/>
+            <TextBox x:Name="userField" HorizontalAlignment="Left" Height="72" Margin="0,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456" TextAlignment="Left"/>
             <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="0,208,0,0" VerticalAlignment="Top" Width="456"/>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Margin="140,19,0,0" Height="50" Width="177" TextAlignment="Center"/>
 
         </Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Margin="162,29,0,0" Grid.Row="1" Height="50" Width="177" TextAlignment="Center"/>
 
         <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to

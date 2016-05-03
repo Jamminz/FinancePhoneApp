@@ -113,6 +113,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Views\Account.xaml.cs">
+      <DependentUpon>Account.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AccountEdit.xaml.cs">
+      <DependentUpon>AccountEdit.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Dashboard.xaml.cs">
       <DependentUpon>Dashboard.xaml</DependentUpon>
     </Compile>
@@ -122,11 +128,23 @@
     <Compile Include="Views\ExpenditureAdd.xaml.cs">
       <DependentUpon>ExpenditureAdd.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\ExpenditureEdit.xaml.cs">
+      <DependentUpon>ExpenditureEdit.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Income.xaml.cs">
       <DependentUpon>Income.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ExpenditureDelete.xaml.cs">
       <DependentUpon>ExpenditureDelete.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IncomeAdd.xaml.cs">
+      <DependentUpon>IncomeAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IncomeDelete.xaml.cs">
+      <DependentUpon>IncomeDelete.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IncomeEdit.xaml.cs">
+      <DependentUpon>IncomeEdit.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\SignUpPage.xaml.cs">
       <DependentUpon>SignUpPage.xaml</DependentUpon>
@@ -138,6 +156,14 @@
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
     <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Account.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AccountEdit.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -153,11 +179,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ExpenditureEdit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Income.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ExpenditureDelete.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\IncomeAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\IncomeDelete.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\IncomeEdit.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -14,7 +14,7 @@ namespace PhoneApp1.Model
         public int IncomeId { get; set; }
 
         [Column]
-        public decimal Amount { get; set; }
+        public double? Amount { get; set; }
 
         [Column]
         public string Description { get; set; }

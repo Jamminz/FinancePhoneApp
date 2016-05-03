@@ -11,9 +11,9 @@ using PhoneApp1.Model;
 
 namespace PhoneApp1.Views
 {
-    public partial class Page1 : PhoneApplicationPage
+    public partial class ExpenditureDelete : PhoneApplicationPage
     {
-        public Page1()
+        public ExpenditureDelete()
         {
             InitializeComponent();
         }

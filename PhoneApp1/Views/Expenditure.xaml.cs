@@ -19,7 +19,9 @@ namespace PhoneApp1.Views
 
             using (AppDataContext context = new AppDataContext(AppDataContext.DbConnectionString))
             {
-                var allExpenditures = context.Expenditures;
+                var allExpenditures = from o in context.Expenditures
+                    where o.CreatedBy == GlobalClass.whoIsLoggedIn
+                    select o;
 
                 foreach (var i in allExpenditures)
                 {
@@ -43,6 +45,11 @@ namespace PhoneApp1.Views
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new Uri("/Views/ExpenditureDelete.xaml", UriKind.Relative));
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Views/ExpenditureEdit.xaml", UriKind.Relative));
         }
     }
 }
